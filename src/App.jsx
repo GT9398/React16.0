@@ -4,12 +4,13 @@ import React from "react"
 // import Project from './Project/project'
 // import Navbar from "./Css/Navbar/Navbar"
 // import Header from "./Css/Header/Header"
-import Resume_Nav from "./Project/Resume/ResumeNav/Resume_Nav"
-import Resume_Head from "./Project/Resume/ResumeHead/Resume_Head"
-import Content from "./Project/Resume/ResumeCont/Content"
-import Footer from "./Project/Resume/ResumeFoot/Footer"
-import Heading from "./Project/Resume/Heading/Heading"
+// import Resume_Nav from "./Project/Resume/ResumeNav/Resume_Nav"
+// import Resume_Head from "./Project/Resume/ResumeHead/Resume_Head"
+// import Content from "./Project/Resume/ResumeCont/Content"
+// import Footer from "./Project/Resume/ResumeFoot/Footer"
+// import Heading from "./Project/Resume/Heading/Heading"
 // import SassApp from "./SASS/Sass"
+import Tail from "./TailwindCSS/Tail"
 import Less from "./LESS/Less"
 
 function App() {
@@ -21,13 +22,14 @@ function App() {
       {/* <Project/> */}
       {/* <Navbar/> */}
       {/* <Header/> */}
-      <Resume_Nav/>
+      {/* <Resume_Nav/>
       <Heading/>
       <Resume_Head/>
       <Content/>
-      <Footer/>
+      <Footer/> */}
       {/* <SassApp/> */}
       {/* <Less/> */}
+      <Tail/>
     </div>
   )
 }
