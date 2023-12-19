@@ -1,0 +1,35 @@
+$bgcolor:gray;
+
+   .navbar-wrapper{
+
+        .navbar{
+            height: 80px;
+            width: 100%;
+            background: $bgcolor;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .navbar-div{
+                font-size: 20px;
+                
+                input{
+                    padding: 10px;
+                    outline: none;
+                    border: none;
+                    background-color: transparent;
+                    border-bottom: 1px solid black;
+                    color: white;
+
+                    &::placeholder{
+                        color: black;
+                        font-size: 17px;
+                    }
+                }   
+
+                i{
+                   font-size: 40px;
+                }
+            }
+        }
+   }

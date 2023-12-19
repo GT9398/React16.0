@@ -1,0 +1,15 @@
+.footer{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot-link ul li{
+    list-style: none;
+    line-height: 60px;
+}
